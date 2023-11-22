@@ -8,6 +8,7 @@
 //! 
 //! ### read: [`file_reader`]
 //! ```rust ignore
+//! use std::io::BufRead;
 //! use seqio::utils::file_reader;
 //! 
 //! let file: &Option<&str> = &Some("path_to_file"); // for uncompressed file
@@ -26,6 +27,7 @@
 //! ### write: [`file_writer`]
 //! 
 //! ```rust ignore
+//! use std::io::BufRead;
 //! use seqio::utils::file_writer;
 //! 
 //! let output: &Option<&str> = &Some("write_file_name"); // output uncompressed file
@@ -40,6 +42,7 @@
 //! 
 //! ### append: [`file_writer_append`]
 //! ```rust ignore
+//! use std::io::BufRead;
 //! use seqio::utils::file_writer_appned;
 //! 
 //! let append: &str = "newfile";
