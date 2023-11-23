@@ -10,7 +10,7 @@ cargo add seqio
 Or add the following to your `Cargo.toml`
 ```text
 [dependencies]
-seqio = "0.1.0"
+seqio = "0.1.1"
 ```
 Now seqio modules can be used directly in your source code, for example:
 ```rust
