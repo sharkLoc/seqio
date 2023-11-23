@@ -1,7 +1,7 @@
 //! Simple wrapper of file io
 //! * **Utils**: File reading and writing, support gzip format compression, see [`utils`] module for an introduction
-//! 
-//! 
+//!
+//!
 //! # install
 //! To use seqio in your Rust project, run command blow
 //! ```shell
@@ -15,7 +15,9 @@
 //! Now seqio modules can be used directly in your source code, for example:
 //! ```rust
 //! use seqio::utils::*;
+//! use seqio::fastq::fqreader;
 //! ```
 
 
+pub mod fastq;
 pub mod utils;

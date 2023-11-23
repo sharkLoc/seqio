@@ -15,4 +15,5 @@ seqio = "0.1.0"
 Now seqio modules can be used directly in your source code, for example:
 ```rust
 use seqio::utils::*;
+use seqio::fastq::fqreader;
 ```
